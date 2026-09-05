@@ -1,0 +1,21 @@
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated database (don't commit this — it gets recreated by db_setup.py)
+shopping.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp audio files created during processing
+temp_input*

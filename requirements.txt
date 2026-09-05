@@ -1,0 +1,8 @@
+streamlit>=1.40.0
+faster-whisper==1.1.1
+rapidfuzz==3.9.7
+imageio-ffmpeg==0.5.1
+
+# Note: imageio-ffmpeg bundles its own FFmpeg binary, so you no longer
+# need to install FFmpeg separately or add it to your system PATH.
+# streamlit>=1.40.0 is required for st.audio_input (live microphone recording).
